@@ -1,0 +1,288 @@
+Comando para criar o banco de dados:
+
+use guerreiros;
+
+Comando para criar a coleção combatentes:
+
+db.createCollection("combatentes");
+
+Comando para inserir os dados na coleção:
+
+db.combatentes.insertMany([
+  {
+    _id: 1,
+    nome: "Adebayo",
+    quilombo: "Subupira",
+    idade: 27,
+    bantu: "Kikongo",
+    comb1: "resistencia",
+    nv1: 6,
+    comb2: "habilidade com arco e flecha",
+    nv2: 9
+  },
+  {
+    _id: 2,
+    nome: "Adjoa",
+    quilombo: "Macaco",
+    idade: 22,
+    bantu: "Quimbundo",
+    comb1: "comunicacao",
+    nv1: 3,
+    comb2: "camuflagem",
+    nv2: 7
+  },
+  {
+    _id: 3,
+    nome: "Adama",
+    quilombo: "Aqualtune",
+    idade: 31,
+    bantu: "Kimbundu",
+    comb1: "habilidade com lanca",
+    nv1: 5,
+    comb2: "velocidade",
+    nv2: 8
+  },
+  {
+    _id: 4,
+    nome: "Adewale",
+    quilombo: "Andalaquituche",
+    idade: 29,
+    bantu: "Umbundu",
+    comb1: "habilidade com arco e flecha",
+    nv1: 9,
+    comb2: "comunicacao",
+    nv2: 7
+  },
+  {
+    _id: 5,
+    nome: "Akosua",
+    quilombo: "Subupira",
+    idade: 24,
+    bantu: "Kikongo",
+    comb1: "velocidade",
+    nv1: 2,
+    comb2: "habilidade com lanca",
+    nv2: 3
+  },
+  {
+    _id: 6,
+    nome: "Aliou",
+    quilombo: "Macaco",
+    idade: 30,
+    bantu: "Umbundu",
+    comb1: "resistencia",
+    nv1: 6,
+    comb2: "comunicacao",
+    nv2: 5
+  },
+  {
+    _id: 7,
+    nome: "Amina",
+    quilombo: "Aqualtune",
+    idade: 34,
+    bantu: "Kimbundu",
+    comb1: "velocidade",
+    nv1: 8,
+    comb2: "comunicacao",
+    nv2: 4
+  },
+  {
+    _id: 8,
+    nome: "Anika",
+    quilombo: "Subupira",
+    idade: 19,
+    bantu: "Kikongo",
+    comb1: "habilidade com lanca",
+    nv1: 4,
+    comb2: "camuflagem",
+    nv2: 10
+  },
+  {
+    _id: 9,
+    nome: "Ayo",
+    quilombo: "Andalaquituche",
+    idade: 33,
+    bantu: "Umbundu",
+    comb1: "resistencia",
+    nv1: 7,
+    comb2: "habilidade com arco e flecha",
+    nv2: 5
+  },
+  {
+    _id: 10,
+    nome: "Baba",
+    quilombo: "Subupira",
+    idade: 25,
+    bantu: "Kikongo",
+    comb1: "velocidade",
+    nv1: 1,
+    comb2: "camuflagem",
+    nv2: 6
+  },
+  {
+    _id: 11,
+    nome: "Bakari",
+    quilombo: "Macaco",
+    idade: 28,
+    bantu: "Quimbundo",
+    comb1: "comunicacao",
+    nv1: 3,
+    comb2: "habilidade com lanca",
+    nv2: 9
+  },
+  {
+    _id: 12,
+    nome: "Boubacar",
+    quilombo: "Aqualtune",
+    idade: 32,
+    bantu: "Kimbundu",
+    comb1: "habilidade com arco e flecha",
+    nv1: 9,
+    comb2: "resistencia",
+    nv2: 7
+  },
+  {
+    _id: 13,
+    nome: "Chidiebere",
+    quilombo: "Andalaquituche",
+    idade: 21,
+    bantu: "Kikongo",
+    comb1: "comunicacao",
+    nv1: 5,
+    comb2: "camuflagem",
+    nv2: 3
+  },
+  {
+    _id: 14,
+    nome: "Chinonso",
+    quilombo: "Subupira",
+    idade: 23,
+    bantu: "Quimbundo",
+    comb1: "velocidade",
+    nv1: 2,
+    comb2: "habilidade com lanca",
+    nv2: 10
+  },
+  {
+    _id: 15,
+    nome: "Chuma",
+    quilombo: "Macaco",
+    idade: 35,
+    bantu: "Kimbundu",
+    comb1: "resistencia",
+    nv1: 7,
+    comb2: "comunicacao",
+    nv2: 6
+  },
+  {
+    _id: 16,
+    nome: "Cisse",
+    quilombo: "Aqualtune",
+    idade: 20,
+    bantu: "Quimbundo",
+    comb1: "habilidade com arco e flecha",
+    nv1: 4,
+    comb2: "velocidade",
+    nv2: 2
+  },
+  {
+    _id: 17,
+    nome: "Coumba",
+    quilombo: "Andalaquituche",
+    idade: 19,
+    bantu: "Kikongo",
+    comb1: "comunicacao",
+    nv1: 7,
+    comb2: "habilidade com lanca",
+    nv2: 3
+  },
+  {
+    _id: 18,
+    nome: "Dauda",
+    quilombo: "Subupira",
+    idade: 29,
+    bantu: "Umbundu",
+    comb1: "velocidade",
+    nv1: 5,
+    comb2: "habilidade com arco e flecha",
+    nv2: 2
+  },
+  {
+    _id: 19,
+    nome: "Diarra",
+    quilombo: "Macaco",
+    idade: 26,
+    bantu: "Kimbundu",
+    comb1: "resistencia",
+    nv1: 3,
+    comb2: "camuflagem",
+    nv2: 7
+  },
+  {
+    _id: 20,
+    nome: "Doumbia",
+    quilombo: "Aqualtune",
+    idade: 27,
+    bantu: "Kikongo",
+    comb1: "habilidade com lanca",
+    nv1: 8,
+    comb2: "comunicacao",
+    nv2: 4
+  },
+  {
+    _id: 21,
+    nome: "Ebele",
+    quilombo: "Andalaquituche",
+    idade: 31,
+    bantu: "Quimbundo",
+    comb1: "camuflagem",
+    nv1: 2,
+    comb2: "velocidade",
+    nv2: 6
+  },
+  {
+    _id: 22,
+    nome: "Ejiofor",
+    quilombo: "Subupira",
+    idade: 28,
+    bantu: "Umbundu",
+    comb1: "habilidade com arco e flecha",
+    nv1: 6,
+    comb2: "resistencia",
+    nv2: 9
+  },
+  {
+    _id: 23,
+    nome: "Ekwueme",
+    quilombo: "Macaco",
+    idade: 33,
+    bantu: "Kimbundu",
+    comb1: "comunicacao",
+    nv1: 1,
+    comb2: "habilidade com lanca",
+    nv2: 4
+  },
+  {
+    _id: 24,
+    nome: "Emeka",
+    quilombo: "Aqualtune",
+    idade: 22,
+    bantu: "Umbundu",
+    comb1: "habilidade com arco e flecha",
+    nv1: 9,
+    comb2: "camuflagem",
+    nv2: 7
+  },
+  {
+    _id: 25,
+    nome: "Eniola",
+    quilombo: "Andalaquituche",
+    idade: 19,
+    bantu: "Quimbundo",
+    comb1: "velocidade",
+    nv1: 7,
+    comb2: "habilidade com lanca",
+    nv2: 3
+  }
+]);
+
