@@ -53,24 +53,24 @@ label {
 button {
     margin-top: 75px;
     padding: 10px 20px;
-    background-color: #333; /* Tom mais escuro de preto */
+    background-color: #333; 
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    transition: background-color 0.3s; /* Adicionando uma transição suave na mudança de cor de fundo */
+    transition: background-color 0.3s;
     margin-bottom: 20px;
     
 }
 
 button:hover {
-    background-color: #555; /* Tom mais escuro quando o mouse passa sobre o botão */
+    background-color: #555; 
 }
 
 #h1 {
     color: black;
     text-align: center;
-     /* Ajustando o espaçamento superior */
+    
 }
 #h3 {
     color: black;
@@ -78,7 +78,7 @@ button:hover {
     max-width: 650px;
     width: 80%;
     font-size: 18px;
-     /* Ajustando o espaçamento superior */
+    
      
 }
 #video{
