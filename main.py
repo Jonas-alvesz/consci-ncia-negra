@@ -3,9 +3,9 @@ from pymongo import MongoClient
 
 app = Flask(__name__)
 
-# Conectar ao MongoDB
+
 try:
-    client = MongoClient('mongodb://localhost:27017/')
+    client = MongoClient('Url_conexao_MongoDB')
     db = client['guerreiros']
     collection = db['combatentes']
     print('Conexão com MongoDB estabelecida')
@@ -106,7 +106,6 @@ def enfrentamento_dados():
 
 @app.route('/Vitoria')
 def vitoria():
-    # Vamos garantir que op, op2 e op3 sejam passados corretamente para o template
     return render_template('Vitoria.html', op=request.args.get('op'), op2=request.args.get('op2'), op3=request.args.get('op3'))
 
 if __name__ == '__main__':
